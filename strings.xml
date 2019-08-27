@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">AppIntents</string>
+    <string name="boton_texto">Enviar mensaje</string>
+    <string name="texto_edit">Mensaje</string>
+    <string name="texto_respuesta">Respuesta</string>
+    <string name="boton_respuesta">Responder</string>
+</resources>

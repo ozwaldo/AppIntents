@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <EditText
+        android:id="@+id/edit_respuesta"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/texto_respuesta"/>
+
+    <Button
+        android:id="@+id/btn_responder"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="responder"
+        android:text="@string/boton_respuesta"/>
+
+    <TextView
+        android:id="@+id/txt_mensaje"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>
